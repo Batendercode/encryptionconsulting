@@ -1,55 +1,38 @@
-Шифрлау әдістері
+Encryption methods
 
  
 
-Цезарь шифры
-Цезарь шифры - ең жеңіл және кеңінен тараған шифр әдісі. Оны Цезарь коды, Цезарь жылжытуы немесе жылжыту шифры деп те атайды.
+Caesar cipher
+The Caesar cipher is the easiest and most widely used encryption method. It is also called Caesar code, Caesar move or move cipher.
 
-Шифр орнына қоюдың бір түрі деп те атауға болады. Шифрде әрбір таңба ашық мәтінде әліпби бойынша тұрақты көлемде оңға немесе солға жылжытылып отырады.Мысалы, жылжыту саны 3 болатын шифрде А әрібі В, Ә әрібі Г ауыстырылады.
+It can also be called a type of encryption. In the cipher, each character is moved to the right or left in a fixed amount in the plaintext alphabet. For example, in a cipher with the number of moves 3, letter A is replaced by B, letter A is replaced by G.
 
-Шифр рим императоры Гай Юлий Цезарь атыменаталған.Ол осы шифрды өзінің генералдарымен қолданған.
+The cipher was named after the Roman emperor Gaius Julius Caesar. He used this cipher with his generals.
 
-Бұл шифрование көбінесе көптеген күрделі шифрдің бөлігі ретінде қолданады, мысалы, Виженер шифры.Цезарь шифры әлі де ROT13 системасында қолданыс табуда. Барлық монолитті шифрлер секілді Цезарь шифрі де тез сындырылады, практикада мүлдем қолданыс көрмейді.
+This cipher is often used as part of many more complex ciphers, such as the Wigener cipher. The Caesar cipher is still used in the ROT13 system. Like all monolithic ciphers, the Caesar cipher is easily broken and is not used at all in practice.
 
-Қолданылу тарихы
-Цезарь шифры Гай Юлий Цезарь атымен аталған. Ол шифрды солға үш орын жылжыту арқылы қолданған.
-Он екі Цезарь өміріне сенсек Гай Светоний Транквилл оны үш орынға жылжыту арқылы әскери ақпарат жіберуде қолданған. Цезарь алғашқы шифр өолданушы ретінде тарихта қалғанымен,алдында басқа шифрлеу әдістері де қолданғанын білеміз.Егер онда конфидициеалды жіберу болса, ол осы шифрды қолданған,мәселен, әліпби ретін ауыстырған.Сонда ешқандай сөзді түсінуге мүмкіншілік болмаған.Егер мәтінді түсінгісі келсе төртінші әріпті қою міндетті еді.Мысалы, А әрпі В..|Гай Светоний Транквилл|Он екі Цезарьдің өмірі 56
-Оның жиені, Август, қолданыста осы шифрлеу әдісін ұстанған. Бірақ ол оңға қарай бір орын жылжытуды ұстанған.Шифрлеген кезде А орнына Ә, Ә орнына Б қойған.|Гай Светоний Транквилл, Он екі Цезарь өмірі 88
-Юлий Цезарьдің қиынырақ схемалар қолданғанына дәлелдер табылуда.
-Цезарьдің шифрлеу әдісі қаншалықты тиімді болғаны белгісіз. Бірақ Цезарьдің көптеген жаулары сауатсыз болғандықтан, шифр басқа тілде жазылған деп ойлағандықтан шифр айтарлықтай қауіпсіз болған.Шифрды сындыру жайлы ешқандай деректер жоқ.Ең алғашқы дерек 9-ғасырда өмір сүрген әл Кинди жазбаларында кезедеседі. Цезарь шифры бір орынға жылжыту кері жылжыту Мезузада Құдай аттарын шифрлеу үшін қолданады.Бұл алғашқы кездегі жағдай болуы мүмкін, еврей халқына Мезузаға сенуге рұқсат берілмеген. 19 ғасырда газеттегі жарнама бөлігінде жеңіл шифрды ақпарат алмастыру үшін қолданған. Кан Дэвид Таймс газетінде бұқара халық құпиялы коммуникацияларда өз кезегін бермегені туралы сипаттап жазды. 1915 жылы Цезарь шифры өз қолданысын тапты. Ресей әскері бұл шифрды қиын шифрлер орнына қолданды.Өйткені қиын шифрлер әскерлерге қиындай болды,бірақ неміс,австрия әскерлеріне бұл шифрды табу қиынға соқпады.
-Он үш орынға жылжытылып шифр ROT13] алгоритмінде қолданылады,қарапайым мәтін шатастыру тәсілінде Usenet кеңінен қолданады.Көбінесе спойлерді тығу үшін қолданады. Виженер шифры Цезарь шифрын әр түрлі жылжытулар арқылы қолданады.Жылжыту кілт сөз арқылы анықталады.Егер кілт ұзындығы мәтін ұзындығына тең болса,бұл сындырылмайтын шифрге айналады. 2006 жылы мафия бастығы Бернардо Провенцано Сицилияда Цезарь шифрын өзінің хабарламаларының криптоанализінде қолданғаны үшін ұсталды. Провенцано шифрды "A" әріпі 4 орында "Ә" әріпі 5 орында тұрған бойында қолданған.
-Цезарь шифрын жеңіл қолдану үшін ортақ оське кіргізілген 2 диаметрлері әр түрлі шеттерінде әліпби жазылған дисктерді қолданады. Алғашында дисктер әр дисктегі әріптері сәйкестендіріліп тұрғызады, сосын қанша орынға жылжыту арқылы Цезарь шифры шығадыМысалы, А әріпін В әріпіне жылжытсақ 3 орынға солға жылжыған шифрды аламыз.
+Usage history
+The Caesar cipher is named after Gaius Julius Caesar. He used the cipher by moving it three places to the left.
+Gaius Suetonius Tranquille used it to send military information by moving it to three places, according to the Life of the Twelve Caesars. Although Caesar remains in history as the first cipher user, we know that he used other encryption methods before. If there was a confidential transmission, he used this cipher, for example, he changed the alphabetical order. Then there was no way to understand any words. If he wanted to understand the text, he had to put the fourth letter. For example, the letter A is B..|Guius Suetonius Tranquille|Lives of the Twelve Caesars 56
+His nephew, Augustus, followed this encryption method in use. But he insisted on moving one place to the right. When deciphering, he substituted A for A and B for A. Guy Suetonius Tranquille, Lives of the Twelve Caesars 88
+There is evidence that Julius Caesar used more complicated schemes.
+It is unclear how effective Caesar's encryption method was. But since many of Caesar's enemies were illiterate, the cipher was thought to be written in a different language, so the cipher was quite secure. There is no record of breaking the cipher. The earliest record is found in the writings of al-Kindi, who lived in the 9th century. Caesar's Cipher move one place move back The Mezuzah is used to encrypt the names of God. This may have been the case in the early days, when the Jewish people were not allowed to believe in the Mezuzah. In the 19th century, a simple cipher was used to exchange information in the advertising section of the newspaper. David Kahn wrote in the Times that the public was not given their turn in secret communications. In 1915, the Caesar cipher was used. The Russian army used this cipher instead of difficult ciphers. Because difficult ciphers were difficult for the troops, but it was not difficult for the German and Austrian troops to find this cipher.
+Shifted to thirteen places, the cipher is used in the ROT13] algorithm, which is widely used by Usenet in the plain text obfuscation method. It is often used to hide spoilers. The Vigener cipher uses the Caesar cipher with different shifts. The shift is defined by a keyword. If the length of the key is equal to the length of the text, it becomes an unbreakable cipher. In 2006, Mafia boss Bernardo Provenzano was arrested in Sicily for using the Caesar cipher in the cryptanalysis of his messages. Provenzano used the cipher where the letter "A" is in the 4th place and the letter "А" is in the 5th place.
+For ease of use, the Caesar cipher uses 2 disks of different diameters inserted into a common axis with alphabets written on their edges. First, the disks are aligned with the letters on each disk, and then by moving how many places, the Caesar cipher is obtained. For example, if we move the letter A to the letter B, we get a cipher shifted 3 places to the left.
 
-Шифрды бұзу
-Цезарь шифры тек қана шифрланған сөз белгілі болғанда да жеңіл бұзылады. Екі түрлі жағдай қарастыруға болады:
+Crack the cipher
+The Caesar cipher is easily broken even if only the ciphertext is known. Two different cases can be considered:
 
-бұзушы жеңіл шифр қолданғаны туралы біледі, бірақ нақты Цезарь шифры екенін білмейді.
+the attacker knows that he used a simple cipher, but does not know whether it is a real Caesar cipher.
 
-бұзушы Цезарь шифры қолданғанын біледі, бірақ қанша орынға жылжығанын білмейді.
+the hacker knows he used the Caesar cipher, but doesn't know how many places he moved.
 
-Бірінші жағдайда шифр орнына қою арқылы тез бұзылуы мүмкін,мысалы жиілікті анализ тағы сондай сондай. Бұл әдісті қолдана отырып ол шифрдің қайталануынан бұл Цезарь шифры екенін тез байқауы мүмкін.
+In the first case, the cipher can be quickly broken by replacing it, for example, frequency analysis is the same. Using this method, he can quickly tell from the repetition of the cipher that it is a Caesar cipher.
 
-Екінші жағдайда шифрды бұзу одан әрі жеңіл болып келеді. Жылжыту орны онша көп емес,сондықтан қатты күш арқылы шифрды бұзуға болады. Бұны істеудің техникасы көбінесе шифрланған сөздің бөлігі алынып оны барлық мүмкін жылжытуларға қойып шығу(қазақ тілінде 42).Кейде оны "жай компоненттің бітілу" техникасы деп те атайды."EXXEGOEXSRGI" шифрланған сөзіне мысал келтірейік, дұрыс мәтінде сөз төртінші қатарда тұрғанын көріп тұрмыз.
+In the second case, breaking the cipher is even easier. There is not much room to move, so you can crack the code with a lot of force. The technique of doing this is to take a part of the encrypted word and put it in all possible moves (42 in Kazakh). Sometimes it is also called the technique of "closing of the simple component".
 
-Бұл әдісті басқа жолмен қолдануға болады-әр әріптің астына осы әріптен бастап әліпби толығымен жазылады.Бұл әдіс егер алдын ала әліпби жазылған жолақтар дайын болса тездетіледі. Ол үшін бір жолақта шифрланған сөз пайда болу керек,сонда қалған бөлігінде біз дұрыс мәтінді көреміз.
+This method can be used in another way - the entire alphabet is written under each letter starting with this letter. This method is accelerated if the pre-written alphabet strips are ready. For this, an encrypted word should appear in one field, then we will see the correct text in the remaining part.
 
-Қарапайым мәтінде тек қана қайта шифрлаудың бір ғана нұсқасы болады. Ал егер өте қысқа болса сөздің бірнеше нұсқасы болуы мүмкін.Мысалы, шифрланған MPQY сөзі қайта шифрланғанда "aden" және"know" (шифрланған мәтен ағылшын ілінде жазылды). Тура осылай "ALIIP" сөзін "dolls"деп немесе "wheel"деп шифрды шешуге болады; "AFCCP"сөзін "jolly"немесе "cheer" деп бірнеше түрде шифрды шешуге болады.
+Plaintext has only one option for re-encryption. And if it is very short, there may be several versions of the word. For example, when the encrypted word MPQY is re-encrypted, it is "aden" and "know" (the encrypted text is written in English). In the same way, the word "ALIIP" can be deciphered as "dolls" or "wheel"; "AFCCP" can be decoded in several ways as "jolly" or "cheer".
 
-Бірнеше рет шифрлау табандылықты ешқалай жақсартпайды.Өйткені a және b жылжыту шифры a+b шифрына тең болып келеді
-Полибий квадраты
-Полибий квадраты қарапайым ауыстырудың алғашқы шифрларының біpі болып есептеледі. 5x5 квадраттың  әрбір орнына кездейсоқ түрде алынған бip әрin жазылады (1-сурет). Грек алфавитінің әріптерімен толтырғанда бip орын бос қалған, ал латын алфавитінің әріптерімен толтырғанда бip орынға екі әріп (i және j) жазылған.
-
-A    B    C    D    E
-F    G    H    I,J    K
-L    M    N    O    P
-Q    R    S    T    U
-V    W    X    Y    Z
-Полибий квадраты көмегімен шифрлау кезінде ашық мәтіннің кезекті әрпінің орнына сол бағанда одан төмен орналасқан әpin шифрмәтінге жазылады. Егер ашық мәтіннің әрпі кестенің төменгі қатарында болса, онда  шифрмәтін үшін осы бағанның ең жоғарғы әрпі алынады. Мысалы,ψ       сөзі үшін       шифрмәтін шығады.
-Вижинер шифрлау жүйесі
-Вижинер ((1523-1596), Римдегі француз елшісі, өзінің шифр жүйесін ойлап тапқан. Виженердің шифры 400 жыл бойы кері шифрланбайтын деп саналған, сондықтан әскери шифр ретінде кеңінен қолданылған).  
-Вижинер жүйесі Цезарь шифрлау жүйесіне ұқсайды. Шифрлау кестесі Вижинер кестесі деп аталады. Вижинер кестесі n2 элементтен тұратын квадраттық матрица болып табылады. Бұл жерде n – қолданылатын алфавит символдарының саны. Бірінші қатарда алфавиттің барлық әріптері жазылады. Әрбір келесі қатарда бір әріпке ығыстырылады. Осындай әрекетті аяғына дейін қайталаудың нәтижесінде қатар саны бағанның (алфавит әріптерінің) санына тең квадрат кесте құрылады. 6-суретте қазақ тіліне арналған Вижинер кестесі көрсетілген. Кестенің екі кірісі бар: негізгі ашық мәтіннің әрпін анықтайтын жоғарғы қатардың символдары және кілттің сол жақтағы шеткі бағаны.
-Шифрлау (және кері  шифрлау) үшін Вижинер кестесін қолдануға болады. Шифрлауды орындау үшін әріптерден тұратын кілт таңдап алынады. Шифрлау былайша жүргізіледі. Толық кестеден бірінші қатар және бірінші әріптері кілттің әріптеріне сәйкес келетін қатарлар іріктеліп алынады.
-
-Виженер шифрі
-
-Бұл алгоритм моноәліпбилік алмасуға қарағанда қиындау. Оның кілт сөзі ретінде, мысалы «CHAIR» сөзі болуы мүмкін. Виженер шрифі Цезарьдің шрифіне ұқсас, бірақ кілт сөзге байланысьы әр әріп өзгеріп отырады. «CHAIR» кілт сөзі қолданылған хабарламаның бірінші әрпі С, екіншісі H, солай кете береді. Кілт сөз бес әріптен құралғандықтан, алтыншы әріп қайтадан С-мен алмастырылады. Көңіл-күйді көтеру үшін «Ka ia vczy» сөзін тауып көріңіз, ағылшын тілінде. Жауабы: «It is easy» - кілт сөз «CHAIR».
+Several times
