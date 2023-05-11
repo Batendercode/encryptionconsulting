@@ -1,8 +1,32 @@
-<script type="text/javascript"> 
-/* Password Protection */
-var password = 'password'
-password=prompt('Please enter the password to enter this page:','');
-if (password != 'password') {
-location.href='http://blog.tomy168.com';
-}
-</script>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>帶有密碼的文章</title>
+</head>
+<body>
+	<h1>這是一篇帶有密碼的文章</h1>
+	<p>請輸入密碼以繼續閱讀：</p>
+	<form action="#" method="post">
+		<label for="password">密碼：</label>
+		<input type="password" id="password" name="password">
+		<input type="submit" value="提交">
+	</form>
+	<div id="content" style="display: none;">
+		<p>恭喜您成功輸入正確的密碼！以下是文章的內容：</p>
+		<p>這是一篇帶有密碼保護的文章，只有輸入正確密碼的人才能閱讀。</p>
+		<p>密碼是0000。</p>
+	</div>
+	<script>
+		document.querySelector('form').addEventListener('submit', function(e) {
+			e.preventDefault();
+			var password = document.querySelector('#password').value;
+			if (password === '0000') {
+				document.querySelector('#content').style.display = 'block';
+				document.querySelector('form').style.display = 'none';
+			} else {
+				alert('密碼不正確，請重新輸入！');
+			}
+		});
+	</script>
+</body>
+</html>
